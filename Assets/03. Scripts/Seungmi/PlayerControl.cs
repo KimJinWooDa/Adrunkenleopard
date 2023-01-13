@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
@@ -8,7 +6,7 @@ public class PlayerControl : MonoBehaviour
 
     Vector3 moveDir;
     bool isGrounded;
-    float speed = 5f;
+    [SerializeField] private float speed = 5f;
     float jumph = 3f;
 
     // Update is called once per frame
@@ -21,10 +19,15 @@ public class PlayerControl : MonoBehaviour
             jump();
         }
 
-        Vector2 thumbstick = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
+        
+    }
 
-        moveDir += thumbstick.x * transform.right * speed + thumbstick.y * transform.forward * speed;
-        rb.AddForce(moveDir);
+    private void FixedUpdate()
+    {
+        var thumbstick = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
+
+        moveDir = transform.right * thumbstick.x + transform.forward * (thumbstick.y);
+        rb.MovePosition(rb.position + moveDir * (Time.fixedDeltaTime * speed));
     }
 
     void jump()
