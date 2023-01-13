@@ -25,7 +25,6 @@ public class ObjectToMusic : MonoBehaviour
         if (!collision.collider.CompareTag("Music")) return;
         
         _audioSource.Play();
-        Debug.Log("실행");
     }
 
     private void OnTriggerEnter(Collider other)
@@ -34,6 +33,11 @@ public class ObjectToMusic : MonoBehaviour
         
         _audioSource.Play();
         var rigidbody = other.GetComponent<Rigidbody>();
-        Debug.Log($"{other.name}, {rigidbody.velocity}");
+        //Debug.Log($"{other.name}, {rigidbody.velocity}");
+    }
+
+    public void OnPlay()
+    {
+        _audioSource.Play();
     }
 }
