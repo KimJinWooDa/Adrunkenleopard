@@ -2,16 +2,14 @@ using System;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class PlayerControl: MonoBehaviour
+public class PlayerControl : MonoBehaviour
 {
     public Rigidbody rb;
 
     Vector3 moveDir;
     bool isGrounded;
-    GameObject ui;
-
-    [SerializeField] private float speed= 5f;
-    [SerializeField] float jumph= 3f;
+    [SerializeField] private float speed = 5f;
+    [SerializeField] float jumph = 3f;
 
     public Transform checkBox;
     public Transform eye;
@@ -23,21 +21,14 @@ public class PlayerControl: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (OVRInput.GetDown(OVRInput.Button.Two))
-        {
-            bool enabled = ui.activeSelf;
-            gameObject.SetActive(!enabled);
-        }
+        isGrounded = Physics.Raycast(checkBox.position + Vector3.up * .5f, -transform.up, 3.0f);
 
-		if(!ui.activeSelf)
+        if (isGrounded && OVRInput.GetDown(OVRInput.Button.One))
 		{
-            isGrounded = Physics.Raycast(checkBox.position + Vector3.up * .5f, -transform.up, 3.0f);
-
-            if (isGrounded && OVRInput.GetDown(OVRInput.Button.One))
-            {
-                jump();
-            }
+            jump();
         }
+
+        
     }
 
     private void FixedUpdate()
@@ -50,7 +41,7 @@ public class PlayerControl: MonoBehaviour
     }
 
     void jump()
-    {
+	{
         rb.AddForce(transform.up * jumph, ForceMode.Impulse);
     }
 }
