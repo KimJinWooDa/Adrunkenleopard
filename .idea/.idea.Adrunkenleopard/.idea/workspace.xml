@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="876233a1-9c9f-432c-916b-d18fd1c741f0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/01. Model/02. Objects/ToolPose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01. Model/02. Objects/ToolPose.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02. Scenes/TestScene/TestJinwoo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02. Scenes/TestScene/TestJinwoo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/ObjectToMusic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/ObjectToMusic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +78,7 @@
       <workItem from="1673598794959" duration="2828000" />
       <workItem from="1673602854768" duration="8931000" />
       <workItem from="1673617270970" duration="188000" />
+      <workItem from="1673618950215" duration="305000" />
     </task>
     <servers />
   </component>

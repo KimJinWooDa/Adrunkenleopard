@@ -15,19 +15,19 @@ public class TestMusic : MonoBehaviour
 
     void OnParticleCollision(GameObject other)
     {
-        if (other.CompareTag("Player")) return;
+        if (!other.CompareTag("Music")) return;
         other.GetComponent<ObjectToMusic>()?.OnPlay();
-        int numCollisionEvents = part.GetCollisionEvents(other, collisionEvents);
+        var numCollisionEvents = part.GetCollisionEvents(other, collisionEvents);
 
-        Rigidbody rb = other.GetComponent<Rigidbody>();
-        int i = 0;
+        var rb = other.GetComponent<Rigidbody>();
+        var i = 0;
 
         while (i < numCollisionEvents)
         {
             if (rb)
             {
-                Vector3 pos = collisionEvents[i].intersection;
-                Vector3 force = collisionEvents[i].velocity * 10;
+                var pos = collisionEvents[i].intersection;
+                var force = collisionEvents[i].velocity * 10;
                 rb.AddForce(force);
             }
             i++;
