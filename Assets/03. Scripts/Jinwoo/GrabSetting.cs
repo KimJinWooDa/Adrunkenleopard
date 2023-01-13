@@ -2,6 +2,7 @@ using Oculus.Interaction;
 using Oculus.Interaction.HandGrab;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(Grabbable))]
 [RequireComponent(typeof(GrabInteractable))]
 [RequireComponent(typeof(PhysicsGrabbable))]
