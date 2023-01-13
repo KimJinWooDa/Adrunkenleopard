@@ -27,16 +27,18 @@ public class SceneSwitch : MonoBehaviour
             yield return null;
             Color c = fill.color;
             c.a += Time.deltaTime;
+            fill.color = c;
 		}
     }
 
     IEnumerator fadeout()
-    {
-        yield return null;
+    {   
         while (fill.color.a > 0f)
         {
+            yield return null;
             Color c = fill.color;
             c.a -= Time.deltaTime;
+            fill.color = c;
         }
     }
 }
