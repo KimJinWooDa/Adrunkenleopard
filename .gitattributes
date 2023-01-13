@@ -1,0 +1,4 @@
+Assets01. filter=lfs diff=lfs merge=lfs -text
+Model02. filter=lfs diff=lfs merge=lfs -text
+Objectslfs.obj filter=lfs diff=lfs merge=lfs -text
+lfs.obj filter=lfs diff=lfs merge=lfs -text
