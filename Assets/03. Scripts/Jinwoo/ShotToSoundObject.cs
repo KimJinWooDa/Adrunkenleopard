@@ -26,7 +26,7 @@ public class ShotToSoundObject : MonoBehaviour
             var obj = Pooling.Instance.GetObject();
             obj.GetComponent<Bubble>().forwardDirection = transform.TransformDirection(exitPosition.position);
             obj.transform.position = exitPosition.position;
-            _audioSource.Play();
+            //_audioSource.Play();
         }
         else if (OVRInput.GetUp(OVRInput.Button.SecondaryIndexTrigger))
         {

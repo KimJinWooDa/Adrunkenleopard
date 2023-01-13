@@ -1,4 +1,4 @@
-using System;
+
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
@@ -14,35 +14,26 @@ public class ObjectToMusic : MonoBehaviour
         rb = GetComponent<Rigidbody>();
 
         rb.useGravity = false;
-        rb.isKinematic = true;
+        //rb.isKinematic = true;
         _audioSource.playOnAwake = false;
 
         this.gameObject.tag = "Music";
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (!collision.collider.CompareTag("Music")) return;
-        
-        _audioSource.Play();
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (!other.CompareTag("Music")) return;
-        
-        _audioSource.Play();
-        var rigidbody = other.GetComponent<Rigidbody>();
-        //Debug.Log($"{other.name}, {rigidbody.velocity}");
-    }
+ 
 
     public void OnPlay()
     {
         if (_audioSource.isPlaying) return;
-        else
-        {
-            _audioSource.Play();
-        }
-        
+
+        _audioSource.Play();
+    }
+
+    public void MusicQ(float power)
+    {
+        power *= 0.1f;
+        power = Mathf.Clamp(power, 0.1f, 1f);
+        _audioSource.volume = power;
+        _audioSource.Play();
     }
 }
