@@ -33,9 +33,9 @@ public class HitTool : MonoBehaviour
     
     private void OnCollisionEnter(Collision collision)
     {
-        var obj = collision.collider.GetComponent<ObjectToMusic>();
-        if (!obj.CompareTag("Music") && !obj) return;
-        obj.MusicQ((float)velocity);
+        var obj = collision.collider;
+        if (!obj.CompareTag("Music") && !obj.GetComponent<ObjectToMusic>()) return;
+        obj.GetComponent<ObjectToMusic>().MusicQ((float)velocity);
 
         var strength = (float)velocity;
         strength *= 0.1f;
@@ -46,9 +46,8 @@ public class HitTool : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        var obj = other.GetComponent<ObjectToMusic>();
-        if (!obj.CompareTag("Music") && !obj) return;
-        obj.MusicQ((float)velocity);
+        if (!other.CompareTag("Music") && !other.GetComponent<ObjectToMusic>()) return;
+        other.GetComponent<ObjectToMusic>().MusicQ((float)velocity);
         
         var strength = (float)velocity;
         strength *= 0.1f;

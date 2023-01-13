@@ -16,7 +16,5 @@ public class GrabSetting : MonoBehaviour
         grabbableMask = LayerMask.NameToLayer("Grabbable");
         this.gameObject.layer = grabbableMask;
         rb = GetComponent<Rigidbody>();
-        rb.isKinematic = false;
-        rb.useGravity = true;
     }
 }

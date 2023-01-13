@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="876233a1-9c9f-432c-916b-d18fd1c741f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Adrunkenleopard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Adrunkenleopard/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02. Scenes/Design.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02. Scenes/Design.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02. Scenes/TestScene/TestJinwoo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02. Scenes/TestScene/TestJinwoo.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/GrabSetting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/GrabSetting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/HitTool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/HitTool.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/ObjectToMusic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/ObjectToMusic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/ShotToSoundObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/ShotToSoundObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +83,7 @@
       <workItem from="1673602854768" duration="8931000" />
       <workItem from="1673617270970" duration="188000" />
       <workItem from="1673618950215" duration="305000" />
-      <workItem from="1673628519287" duration="1393000" />
+      <workItem from="1673628519287" duration="3018000" />
     </task>
     <servers />
   </component>
