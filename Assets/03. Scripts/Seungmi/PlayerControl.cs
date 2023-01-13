@@ -13,6 +13,8 @@ public class PlayerControl : MonoBehaviour
 
     public Transform checkBox;
     public Transform eye;
+    public GameObject ui;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -21,6 +23,13 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (OVRInput.GetDown(OVRInput.Button.Two))
+        {
+            gameObject.SetActive(!ui.activeSelf);
+        }
+
+        //if (!ui.activeSelf) return;
+
         isGrounded = Physics.Raycast(checkBox.position + Vector3.up * .5f, -transform.up, 3.0f);
 
         if (isGrounded && OVRInput.GetDown(OVRInput.Button.One))
@@ -33,6 +42,8 @@ public class PlayerControl : MonoBehaviour
 
     private void FixedUpdate()
     {
+        //if (!ui.activeSelf) return;
+
         var thumbstick = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
 
         moveDir = transform.right * thumbstick.x + transform.forward * (thumbstick.y);
