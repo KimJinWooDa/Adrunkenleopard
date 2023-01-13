@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="876233a1-9c9f-432c-916b-d18fd1c741f0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Adrunkenleopard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Adrunkenleopard/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02. Scenes/TestScene/TestJinwoo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02. Scenes/TestScene/TestJinwoo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/GrabSetting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/GrabSetting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/HitTool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/HitTool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/ObjectToMusic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/ObjectToMusic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02. Scenes/Design2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02. Scenes/Design2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
