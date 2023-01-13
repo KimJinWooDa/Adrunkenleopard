@@ -2,6 +2,7 @@ using Oculus.Interaction;
 using Oculus.Interaction.HandGrab;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(Grabbable))]
 [RequireComponent(typeof(GrabInteractable))]
 [RequireComponent(typeof(PhysicsGrabbable))]
@@ -15,7 +16,5 @@ public class GrabSetting : MonoBehaviour
         grabbableMask = LayerMask.NameToLayer("Grabbable");
         this.gameObject.layer = grabbableMask;
         rb = GetComponent<Rigidbody>();
-        rb.isKinematic = false;
-        rb.useGravity = true;
     }
 }
