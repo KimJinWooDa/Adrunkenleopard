@@ -38,6 +38,7 @@ public class ObjectToMusic : MonoBehaviour
 
     public void OnPlay()
     {
+        _audioSource.Stop();
         _audioSource.Play();
     }
 }

@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="876233a1-9c9f-432c-916b-d18fd1c741f0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Adrunkenleopard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Adrunkenleopard/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02. Scenes/TestScene/TestJinwoo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02. Scenes/TestScene/TestJinwoo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/GrabSetting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/GrabSetting.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/ObjectToMusic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/ObjectToMusic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03. Scripts/Seungmi/PlayerControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03. Scripts/Seungmi/PlayerControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Materials/TransparentStandard.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Materials/TransparentStandard.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/HandGrab/HandGrabInteractor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/HandGrab/HandGrabInteractor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/BigRedButton/Materials/PodiumMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/BigRedButton/Materials/PodiumMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/ChessPiece/Materials/ChessPieceMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/ChessPiece/Materials/ChessPieceMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Key/Materials/keyMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Key/Materials/keyMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Materials/CubeMaterialGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Materials/CubeMaterialGreen.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Mug/Materials/mugMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Mug/Materials/mugMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/SprayBottle/Materials/SprayBottleMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/SprayBottle/Materials/SprayBottleMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Torch/Materials/torchMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Torch/Materials/torchMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Torch/Particles/Materials/Flame.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Torch/Particles/Materials/Flame.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Torch/Particles/Materials/FlamePool.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Torch/Particles/Materials/FlamePool.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/WaterParticles/Materials/ParticleSprayMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/WaterParticles/Materials/ParticleSprayMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/WaterParticles/Materials/ParticleStreamMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/WaterParticles/Materials/ParticleStreamMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Scripts/HandGrabUse/Effects/WaterSpray/WaterSpray.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Scripts/HandGrabUse/Effects/WaterSpray/WaterSpray.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/GroundMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/GroundMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +78,7 @@
       <workItem from="1673597625378" duration="192000" />
       <workItem from="1673598794959" duration="2828000" />
       <workItem from="1673602854768" duration="8931000" />
+      <workItem from="1673617270970" duration="188000" />
     </task>
     <servers />
   </component>
