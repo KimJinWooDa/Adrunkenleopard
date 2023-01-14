@@ -6,20 +6,16 @@ using UnityEngine.UI;
 
 public class SceneSwitch : MonoBehaviour
 {
-    public Image fill;
+    //public Image fill;
 
-    void Start()
+    /*
+     
+         void Start()
 	{
         fill.color = new Color(0f, 0f, 0f, 1f);
         StartCoroutine("fadeout");
     }
-    // Update is called once per frame
-    public void SceneLoad(int n)
-    {
-        StartCoroutine("fadein");
-        SceneManager.LoadScene(n);
-    }
-
+     * 
     IEnumerator fadein()
 	{
 		while (fill.color.a < 1f)
@@ -41,4 +37,13 @@ public class SceneSwitch : MonoBehaviour
             fill.color = c;
         }
     }
+     */
+
+    // Update is called once per frame
+    public void SceneLoad(int n)
+    {
+        //StartCoroutine("fadein");
+        SceneManager.LoadScene(n);
+    }
+
 }

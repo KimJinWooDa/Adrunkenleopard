@@ -3,49 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="876233a1-9c9f-432c-916b-d18fd1c741f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Adrunkenleopard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Adrunkenleopard/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/2222.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/2222.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/No OtLine.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/No OtLine.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/OtLine 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/OtLine 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/OtLine 2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/OtLine 2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/OtLine 3.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/OtLine 3.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/OtLine.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/OtLine.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/OutLine 1.shadergraph" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/OutLine 1.shadergraph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/OutLine.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/OutLine.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/OutLine.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01. Model/05. Materials/OutLine.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/05. Materials/OutLine.shadergraph.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01. Model/05. Materials/OutLine.shadergraph.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01. Model/01. Character/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01. Model/01. Character/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01. Model/01. Character/Temp/Ch03_nonPBR.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01. Model/01. Character/Temp/Ch03_nonPBR.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02. Scenes/Design.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02. Scenes/Design.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02. Scenes/Design/Global Volume Profile 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02. Scenes/Design/Global Volume Profile 1.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02. Scenes/Design2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02. Scenes/Design2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/ObjectToMusic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/ObjectToMusic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/CelWithRim01__StylSurf_Single_ExCel_Spec_Rim.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/CelWithRim01__StylSurf_Single_ExCel_Spec_Rim.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/CelWithRim02__StylSurf_Single_ExCel_Spec_Rim.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/CelWithRim02__StylSurf_Single_ExCel_Spec_Rim.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/DarkPaleWhiteRim__StylSurf_Single_Rim.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/DarkPaleWhiteRim__StylSurf_Single_Rim.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/GlassLook01__StylSurf_Single_Spec.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/GlassLook01__StylSurf_Single_Spec.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/MatteBronze__StylSurf_Single_Spec_Rim_HGrad.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/MatteBronze__StylSurf_Single_Spec_Rim_HGrad.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/MatteGradient_StylSurf_None_HGrad.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/MatteGradient_StylSurf_None_HGrad.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/Metallic02__StylSurf_Single_ExtraC_Spec_Rim.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/Metallic02__StylSurf_Single_ExtraC_Spec_Rim.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/MetallicRim01__StylSurf_None_Rim.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/MetallicRim01__StylSurf_None_Rim.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/ShinyPlastic01__StylSurf_Spec_Rim.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/ShinyPlastic01__StylSurf_Spec_Rim.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/SimpleCel01_StylSurf_Single.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/SimpleCel01_StylSurf_Single.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/SmoothExtraCel__StylSurf_ExtraC_Spec.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/SmoothExtraCel__StylSurf_ExtraC_Spec.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/SmoothPcycho02__StylSurf_Single_ExCel_Spec_Rim.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/SmoothPcycho02__StylSurf_Single_ExCel_Spec_Rim.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/SmoothPcycho03__StylSurf_Single_ExCel_Spec_Rim.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/SmoothPcycho03__StylSurf_Single_ExCel_Spec_Rim.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/Toon01__StylSurf_Single.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/Toon01__StylSurf_Single.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/Toon02__StylSurf_Single_ExtraC_Spec.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/Toon02__StylSurf_Single_ExtraC_Spec.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/ToonBlurry__StylSurf_Single_HGrad.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/ToonBlurry__StylSurf_Single_HGrad.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/TwoColorVasePreset02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/TwoColorVasePreset02.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/TwoColorVasePreset03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/TwoColorVasePreset03.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/WhiteWithBlackRim__StylSurf_Single_Spec_Rim.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/WhiteWithBlackRim__StylSurf_Single_Spec_Rim.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/03. Scripts/Seungmi/PlayerControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03. Scripts/Seungmi/PlayerControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/03. Scripts/Seungmi/SceneSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03. Scripts/Seungmi/SceneSwitch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/LacquerGray__StylSurf_Single_ExCel_Spec_Rim 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/LacquerGray__StylSurf_Single_ExCel_Spec_Rim 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/LaserPointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/LaserPointer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +29,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/ShotToSoundObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/TestMusic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AITV.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -125,6 +94,7 @@
       <workItem from="1673628519287" duration="3018000" />
       <workItem from="1673649813295" duration="2473000" />
       <workItem from="1673660185233" duration="235000" />
+      <workItem from="1673661429665" duration="5127000" />
     </task>
     <servers />
   </component>

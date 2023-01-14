@@ -23,10 +23,10 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if (OVRInput.GetDown(OVRInput.Button.Two))
-        // {
-        //     gameObject.SetActive(!ui.activeSelf);
-        // }
+        if (OVRInput.GetDown(OVRInput.Button.Two))
+        {
+            ui.SetActive(!ui.activeSelf);
+        }
 
         //if (!ui.activeSelf) return;
 
