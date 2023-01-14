@@ -16,7 +16,6 @@ public class ObjectToMusic : MonoBehaviour
 
         rb.useGravity = false;
         rb.isKinematic = true;
-        
         _audioSource.playOnAwake = false;
 
         this.gameObject.tag = "Music";
@@ -24,7 +23,7 @@ public class ObjectToMusic : MonoBehaviour
 
     private void Start()
     {
-        if (this.gameObject.GetComponent<HitTool>())
+        if (this.gameObject.GetComponent<HitTool>() && gameObject.name != "Weapon")
         {
             rb.isKinematic = false;
             rb.useGravity = true;
