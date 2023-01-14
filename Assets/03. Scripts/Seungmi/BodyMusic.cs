@@ -5,6 +5,7 @@ using UnityEngine;
 public class BodyMusic : MonoBehaviour
 {
     public AudioSource _audioSource;
+    public AudioClip clip;
     public Rigidbody[] rb;
 
     // Start is called before the first frame update
@@ -16,9 +17,8 @@ public class BodyMusic : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        print(collision.collider);
         if (!collision.collider.CompareTag("Player")) return;
-        _audioSource.Play();
+        _audioSource.PlayOneShot(clip);
     }
 
 
