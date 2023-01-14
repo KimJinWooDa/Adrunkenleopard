@@ -46,7 +46,7 @@ public class HitTool : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!other.CompareTag("Music") && !other.GetComponent<ObjectToMusic>()) return;
+        if (!other.CompareTag("Music")) return;
         other.GetComponent<ObjectToMusic>().MusicQ((float)velocity);
         
         var strength = (float)velocity;

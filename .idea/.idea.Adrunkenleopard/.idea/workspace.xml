@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="876233a1-9c9f-432c-916b-d18fd1c741f0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Adrunkenleopard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Adrunkenleopard/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01. Model/01. Character/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01. Model/01. Character/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02. Scenes/Design.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02. Scenes/Design.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02. Scenes/Design2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02. Scenes/Design2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/HitTool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03. Scripts/Jinwoo/HitTool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/Demos/[Water] Pool/Pool Scene - Materials/PoolScene_Water_05.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/Demos/[Water] Pool/Pool Scene - Materials/PoolScene_Water_05.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SineVFX/MatCapPro/Resources/Materials/FirstLayerOpaque_Stone_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SineVFX/MatCapPro/Resources/Materials/FirstLayerOpaque_Stone_02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SineVFX/MatCapPro/Resources/Materials/FirstLayerOpaque_Stone_05.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SineVFX/MatCapPro/Resources/Materials/FirstLayerOpaque_Stone_05.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SineVFX/MatCapPro/Resources/Materials/FirstLayerOpaque_Stone_06.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SineVFX/MatCapPro/Resources/Materials/FirstLayerOpaque_Stone_06.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SineVFX/MatCapPro/Resources/Materials/SecondLayer_CubeDamaged_03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SineVFX/MatCapPro/Resources/Materials/SecondLayer_CubeDamaged_03.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +94,8 @@
       <workItem from="1673649813295" duration="2473000" />
       <workItem from="1673660185233" duration="235000" />
       <workItem from="1673661429665" duration="5127000" />
-      <workItem from="1673671454356" duration="521000" />
+      <workItem from="1673671454356" duration="1336000" />
+      <workItem from="1673673831022" duration="957000" />
     </task>
     <servers />
   </component>
