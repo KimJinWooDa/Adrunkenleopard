@@ -1,10 +1,10 @@
 
-using System;
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(Collider))]
+[RequireComponent(typeof(BoxCollider))]
 public class ObjectToMusic : MonoBehaviour
 {
     private AudioSource _audioSource;
