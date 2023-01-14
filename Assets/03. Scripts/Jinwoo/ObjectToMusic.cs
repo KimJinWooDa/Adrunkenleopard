@@ -1,4 +1,5 @@
 
+using System;
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
@@ -14,13 +15,21 @@ public class ObjectToMusic : MonoBehaviour
         rb = GetComponent<Rigidbody>();
 
         rb.useGravity = false;
-        //rb.isKinematic = true;
+        rb.isKinematic = true;
+        
         _audioSource.playOnAwake = false;
 
         this.gameObject.tag = "Music";
     }
 
- 
+    private void Start()
+    {
+        if (this.gameObject.GetComponent<HitTool>())
+        {
+            rb.isKinematic = false;
+            rb.useGravity = true;
+        }
+    }
 
     public void OnPlay()
     {
