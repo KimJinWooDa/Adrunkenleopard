@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="876233a1-9c9f-432c-916b-d18fd1c741f0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Adrunkenleopard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Adrunkenleopard/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/01. Character/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01. Model/01. Character/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01. Model/01. Character/Temp/Ch03_nonPBR.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01. Model/01. Character/Temp/Ch03_nonPBR.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02. Scenes/Design.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02. Scenes/Design.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02. Scenes/Design2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02. Scenes/Design2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03. Scripts/Seungmi/PlayerControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03. Scripts/Seungmi/PlayerControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03. Scripts/Seungmi/SceneSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03. Scripts/Seungmi/SceneSwitch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/LacquerGray__StylSurf_Single_ExCel_Spec_Rim 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/PresetsShared/Materials/LacquerGray__StylSurf_Single_ExCel_Spec_Rim 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/LaserPointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/LaserPointer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +85,7 @@
       <workItem from="1673649813295" duration="2473000" />
       <workItem from="1673660185233" duration="235000" />
       <workItem from="1673661429665" duration="5127000" />
+      <workItem from="1673671454356" duration="521000" />
     </task>
     <servers />
   </component>

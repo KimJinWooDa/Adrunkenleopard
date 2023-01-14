@@ -14,7 +14,10 @@ public class PlayerControl : MonoBehaviour
     public Transform checkBox;
     public Transform eye;
     public GameObject ui;
-
+    private bool ReadyToSnapTurn;
+    public bool RotationEitherThumbstick = false;
+    public OVRCameraRig CameraRig;
+    public float RotationAngle = 45.0f;
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -37,6 +40,28 @@ public class PlayerControl : MonoBehaviour
             jump();
         }
 
+        if (OVRInput.Get(OVRInput.Button.SecondaryThumbstickLeft) ||
+            (RotationEitherThumbstick && OVRInput.Get(OVRInput.Button.PrimaryThumbstickLeft)))
+        {
+            if (ReadyToSnapTurn)
+            {
+                ReadyToSnapTurn = false;
+                transform.RotateAround(CameraRig.centerEyeAnchor.position, Vector3.up, -RotationAngle);
+            }
+        }
+        else if (OVRInput.Get(OVRInput.Button.SecondaryThumbstickRight) ||
+                 (RotationEitherThumbstick && OVRInput.Get(OVRInput.Button.PrimaryThumbstickRight)))
+        {
+            if (ReadyToSnapTurn)
+            {
+                ReadyToSnapTurn = false;
+                transform.RotateAround(CameraRig.centerEyeAnchor.position, Vector3.up, RotationAngle);
+            }
+        }
+        else
+        {
+            ReadyToSnapTurn = true;
+        }
         
     }
 
